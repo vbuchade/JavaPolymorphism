@@ -20,4 +20,8 @@ public class SalesPerson extends Employee {
     public void printSalary() {
         System.out.println("Sales Person " + name + " has salary = " + salary);
     }
+    
+    public void printSalesArea() {
+        System.out.println("Sales person " + name + " works in area = Pune");
+    }
 }
